@@ -1,0 +1,15 @@
+{
+	"name": "DS_EMPLSQL",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_EMPLSQL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"table": "Employee"
+		}
+	}
+}
